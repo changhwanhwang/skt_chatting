@@ -37,9 +37,9 @@
 .noti_view_wrap .preview_list_wrap .list_type_table table td {padding: 24px 0 24px 20px; vertical-align: middle; border-top: 1px solid #ddd;}
 .noti_view_wrap .preview_list_wrap .list_type_table table tr:last-child td {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
 .noti_view_wrap .preview_list_wrap .list_type_table table .division {font-size: 14px; line-height: 22px; font-weight: 500; color: #999; vertical-align: inherit;}
-.noti_view_wrap .preview_list_wrap .list_type_table table .title {display: inline-block; font-size: 16px; color: #1a1a1a; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
-.noti_view_wrap .preview_list_wrap .list_type_table table .title.n_txt {display: inline-block; font-size: 16px; color: #999; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
-.noti_view_wrap .preview_list_wrap .list_type_table table .date {display: block; font-size: 14px; line-height: 22px; color: #a0a0a0; font-weight: 500;}
+.noti_view_wrap .preview_list_wrap .list_type_table table .title {font-size: 16px; color: #1a1a1a; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.noti_view_wrap .preview_list_wrap .list_type_table table .title.n_txt {font-size: 16px; color: #999; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.noti_view_wrap .preview_list_wrap .list_type_table table .date {font-size: 14px; line-height: 22px; color: #a0a0a0; font-weight: 500;}
 .noti_view_wrap .btn_wrap {text-align: center;}
 
 
@@ -60,8 +60,8 @@
 .event_view_wrap .preview_list_wrap .list_type_table table td {padding: 24px 0 24px 20px; vertical-align: middle; border-top: 1px solid #ddd;}
 .event_view_wrap .preview_list_wrap .list_type_table table tr:last-child td {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
 .event_view_wrap .preview_list_wrap .list_type_table table .division {font-size: 14px; line-height: 22px; font-weight: 500; color: #999; vertical-align: inherit;}
-.event_view_wrap .preview_list_wrap .list_type_table table .title {display: inline-block; font-size: 16px; color: #1a1a1a; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
-.event_view_wrap .preview_list_wrap .list_type_table table .title.n_txt {display: inline-block; font-size: 16px; color: #999; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.event_view_wrap .preview_list_wrap .list_type_table table .title {font-size: 16px; color: #1a1a1a; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.event_view_wrap .preview_list_wrap .list_type_table table .title.n_txt {font-size: 16px; color: #999; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
 .event_view_wrap .preview_list_wrap .list_type_table table .date {display: block; font-size: 14px; line-height: 22px; color: #a0a0a0; font-weight: 500;}
 .event_view_wrap .btn_wrap {text-align: center;}
 
@@ -74,7 +74,7 @@
 .faq_wrap .acc_wrap .acc_tit:after {content: ""; position: absolute; top: 42%; right: 24px; width: 8px; height: 8px; border-top: 2px solid #999; border-right: 2px solid #999; transform: rotate(135deg);}
 .faq_wrap .acc_wrap .acc_tit.active {align-items: flex-start; padding: 24px 20px 22px; background-color: #fafafa;}
 .faq_wrap .acc_wrap .acc_tit.active:after {content: ""; position: absolute; top: 42%; right: 20px; width: 9px; height: 9px; border-top: 2px solid #1a1a1a; border-right: 2px solid #1a1a1a; transform: rotate(315deg);}
-.faq_wrap .acc_wrap .acc_tit .tit_wrap {display: flex; align-items: center;}
+.faq_wrap .acc_wrap .acc_tit .tit_wrap {display: flex; align-items: center; width: 100%; overflow: hidden;}
 .faq_wrap .acc_wrap .acc_tit.active .tit_wrap {align-items: flex-start;}
 .faq_wrap .acc_wrap .acc_tit .que_q {display: block; font-size: 18px; line-height: 28px; color: #1a1a1a; font-weight: 500;}
 .faq_wrap .acc_wrap .acc_tit .badge {padding-right: 32px; text-align: left;}
@@ -85,7 +85,7 @@
 .faq_wrap .acc_wrap .acc_cont.active {display: block; border-top: 0;}
 .faq_wrap .acc_wrap .acc_cont .an_wrap {display: flex;}
 .faq_wrap .acc_wrap:last-of-type .acc_cont {border-top: none; border-bottom: 1px solid #ddd;}
-.faq_wrap .acc_wrap .acc_cont .an_a {font-size: 18px; line-height: 28px; color: #666; font-weight: 700;}
+.faq_wrap .acc_wrap .acc_cont .an_a {font-size: 18px; line-height: 28px; color: #1a1a1a; font-weight: 500;}
 .faq_wrap .acc_wrap .acc_cont .an_txt {width: 258px; padding-left: 8px; margin-right: 20px; font-size: 16px; line-height: 24px; color: #1a1a1a; font-weight: 700;}
 
 .faq_wrap .notice_list.n_none table td {padding: 80px 0 100px; text-align: center;}

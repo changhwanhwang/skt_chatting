@@ -82,8 +82,8 @@
 .faq_wrap .acc_wrap .acc_tit:after {content: ""; position: absolute; top: 42%; right: 24px; width: 9px; height: 9px; border-top: 2px solid #999; border-right: 2px solid #999; transform: rotate(135deg);}
 .faq_wrap .acc_wrap .acc_tit.active {align-items: flex-start; padding: 40px 24px 20px; background-color: #fafafa;}
 .faq_wrap .acc_wrap .acc_tit.active:after {content: ""; position: absolute; top: 57%; right: 24px; width: 9px; height: 9px; border-top: 2px solid #1a1a1a; border-right: 2px solid #1a1a1a; transform: rotate(315deg);}
-.faq_wrap .acc_wrap .acc_tit .tit_wrap {display: flex; align-items: center;}
-.faq_wrap .acc_wrap .acc_tit .que_q {display: block; min-width: 28px; font-size: 24px; line-height: 24px; color: #1a1a1a; font-weight: 700;}
+.faq_wrap .acc_wrap .acc_tit .tit_wrap {display: flex; align-items: center; width: 100%; overflow: hidden;}
+.faq_wrap .acc_wrap .acc_tit .que_q {display: block; min-width: 28px; font-size: 24px; line-height: 24px; color: #1a1a1a; font-weight: 500;}
 .faq_wrap .acc_wrap .acc_tit .badge {min-width: 80px; padding-right: 32px; text-align: left;}
 .faq_wrap .acc_wrap .acc_tit .que_txt {display: inline-block; margin-right: 40px; padding-left: 8px; width: 900px; font-size: 20px; line-height: 28px; color: #1a1a1a; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; letter-spacing: 0; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
 .faq_wrap .acc_wrap .acc_tit.active .que_txt {white-space: normal; overflow: inherit;}
@@ -92,7 +92,7 @@
 .faq_wrap .acc_wrap .acc_cont.active {display: block; border-top: 0;}
 .faq_wrap .acc_wrap .acc_cont .an_wrap {display: flex;}
 .faq_wrap .acc_wrap:last-of-type .acc_cont {border-top: none; border-bottom: 1px solid #ddd;}
-.faq_wrap .acc_wrap .acc_cont .an_a {padding-right: 8px; min-width: 130px; font-size: 24px; line-height: 24px; color: #1a1a1a; font-weight: 700; text-align: right;}
+.faq_wrap .acc_wrap .acc_cont .an_a {padding-right: 8px; min-width: 130px; font-size: 24px; line-height: 24px; color: #1a1a1a; font-weight: 500; text-align: right;}
 .faq_wrap .acc_wrap .acc_cont .an_txt {width: 900px; margin-right: 50px; padding-left: 8px; font-size: 18px; line-height: 28px; color: #333; font-weight: 700;}
 
 .faq_wrap .notice_list.n_none table td {padding: 201px 0; text-align: center;}
