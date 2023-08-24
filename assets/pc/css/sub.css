@@ -11,20 +11,20 @@
 .notice_wrap .list_type_table table td {padding: 40px 32px 40px 24px; vertical-align: middle; border-top: 1px solid #ddd;}
 .notice_wrap .list_type_table table tr:last-child td {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
 .notice_wrap .list_type_table table .title {padding-left: 0;}
-.notice_wrap .list_type_table table .title a {display: inline-block; max-width: 100%; font-size: 20px; color: #1a1a1a; line-height: 28px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.notice_wrap .list_type_table table .title a {display: inline-block; max-width: 100%; font-size: 20px; color: #1a1a1a; line-height: 28px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden; font-family: "Pretendard-Medium", 'Noto Sans KR', sans-serif;}
 .notice_wrap .list_type_table table .title a:hover {text-decoration: underline;}
 .notice_wrap .list_type_table table .title .new a {font-weight: 700;}
 .notice_wrap .list_type_table table .new {display: flex; align-items: center;}
 .notice_wrap .list_type_table table .new .flag {margin-right: 12px;}
-.notice_wrap .list_type_table table .date {font-size: 18px; line-height: 28px; color: #a0a0a0; font-weight: 500; text-align: right;}
+.notice_wrap .list_type_table table .date {font-size: 18px; line-height: 28px; color: #a0a0a0; font-weight: 500; text-align: right; font-family: "Pretendard-Medium", 'Noto Sans KR', sans-serif;}
 .notice_wrap .btn_wrap {text-align: center;}
 /* 게시글이 없을 경우 */
 .notice_list.n_none table {width: 100%;}
 .notice_list.n_none table td {width: 100%; padding: 201px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: center;}
-.notice_list.n_none table td p {margin-top: 16px; color: #999;}
+.notice_list.n_none table td p {margin-top: 16px; color: #999; font-family: "Pretendard-Medium", 'Noto Sans KR', sans-serif;}
 .notice_list.n_none table .fixed td {padding: 40px 32px 40px 24px; text-align: left;}
 
-
+ 
 /* notice-view */
 .noti_view_wrap .detail_tit_wrap {margin-bottom: 80px; border-bottom: 1px solid #ddd;}
 .noti_view_wrap .detail_tit_wrap .detail_tit {display: block; margin-top: 20px; font-size: 48px; line-height: 64px; font-weight: 700; color: #1a1a1a;}
@@ -48,7 +48,7 @@
 .noti_view_wrap .btn_wrap {text-align: center;}
 
 
-/* event-view */
+/* event-view */ 
 .event_view_wrap .detail_tit_wrap {margin-bottom: 80px; border-bottom: 1px solid #ddd;}
 .event_view_wrap .detail_tit_wrap .detail_tit {display: block; margin-top: 20px; font-size: 48px; line-height: 64px; font-weight: 700; color: #1a1a1a;}
 .event_view_wrap .detail_tit_wrap .detail_date {display: block; margin: 32px 0 60px; font-size: 20px; line-height: 28px; font-weight: 500; color: #999;}
