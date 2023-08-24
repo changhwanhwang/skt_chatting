@@ -5,7 +5,7 @@
 .notice_wrap .event .event_txt p {margin-bottom: 32px; font-size: 36px; line-height: 48px; font-weight: 700; color: #fff;}
 .notice_wrap .event .event_txt span {font-size: 20px; line-height: 24px; font-weight: 500; color: #fff;}
 
-.notice_wrap .list_type_table table {table-layout: fixed; width: 100%; vertical-align: middle; margin-bottom: 60px;}
+.notice_wrap .list_type_table table {table-layout: fixed; width: 100%; vertical-align: middle; margin-bottom: 60px; border-top: 1px solid #1a1a1a;}
 .notice_wrap .list_type_table table .fixed {background-color: rgba(59, 124, 243, 0.05);}
 .notice_wrap .list_type_table table .badge {width: 80px; text-align: left;}
 .notice_wrap .list_type_table table td {padding: 40px 32px 40px 24px; vertical-align: middle; border-top: 1px solid #ddd;}
@@ -38,11 +38,11 @@
 .noti_view_wrap .preview_list_wrap .list_type_table table {table-layout: fixed; width: 100%; vertical-align: middle; margin-bottom: 60px;}
 .noti_view_wrap .preview_list_wrap .list_type_table table td {padding: 40px 0; vertical-align: middle; border-top: 1px solid #ddd;}
 .noti_view_wrap .preview_list_wrap .list_type_table table tr:last-child td {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;} 
-.noti_view_wrap .preview_list_wrap .list_type_table table .division {font-size: 20px; line-height: 28px; font-weight: 500; color: #999; vertical-align: inherit;}
+.noti_view_wrap .preview_list_wrap .list_type_table table .division {font-size: 20px; line-height: 28px; font-weight: 500; color: #999; vertical-align: middle;}
 .noti_view_wrap .preview_list_wrap .list_type_table table .title {padding-left: 0;}
-.noti_view_wrap .preview_list_wrap .list_type_table table .title a {display: inline-block; max-width: 100%; font-size: 20px; color: #1a1a1a; line-height: 28px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden}
+.noti_view_wrap .preview_list_wrap .list_type_table table .title a {display: inline-block; max-width: 100%; font-size: 20px; color: #1a1a1a; line-height: 28px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden; vertical-align: middle;}
 .noti_view_wrap .preview_list_wrap .list_type_table table .title a:hover {text-decoration: underline;}
-.noti_view_wrap .preview_list_wrap .list_type_table table .title.n_txt a {display: inline-block; max-width: 100%; font-size: 20px; color: #999; line-height: 28px; font-weight: 500; white-space: nowrap; text-overflow: inherit;}
+.noti_view_wrap .preview_list_wrap .list_type_table table .title.n_txt a {display: inline-block; max-width: 100%; font-size: 20px; color: #999; line-height: 28px; font-weight: 500; white-space: nowrap; text-overflow: inherit; vertical-align: middle;}
 .noti_view_wrap .preview_list_wrap .list_type_table table .title.n_txt a:hover {text-decoration: none;}
 .noti_view_wrap .preview_list_wrap .list_type_table table .date {font-size: 16px; line-height: 24px; color: #a0a0a0; font-weight: 500; text-align: right;}
 .noti_view_wrap .btn_wrap {text-align: center;}
@@ -64,11 +64,11 @@
 .event_view_wrap .preview_list_wrap .list_type_table table {table-layout: fixed; width: 100%; vertical-align: middle; margin-bottom: 60px;}
 .event_view_wrap .preview_list_wrap .list_type_table table td {padding: 40px 0; vertical-align: middle; border-top: 1px solid #ddd;}
 .event_view_wrap .preview_list_wrap .list_type_table table tr:last-child td {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
-.event_view_wrap .preview_list_wrap .list_type_table table .division {font-size: 20px; line-height: 28px; font-weight: 500; color: #999; vertical-align: inherit; font-family: "Pretendard-Medium", 'Noto Sans KR', sans-serif;}
+.event_view_wrap .preview_list_wrap .list_type_table table .division {font-size: 20px; line-height: 28px; font-weight: 500; color: #999; vertical-align: middle;}
 .event_view_wrap .preview_list_wrap .list_type_table table .title {padding-left: 0;}
-.event_view_wrap .preview_list_wrap .list_type_table table .title a {display: inline-block; max-width: 100%; font-size: 20px; color: #1a1a1a; line-height: 28px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.event_view_wrap .preview_list_wrap .list_type_table table .title a {display: inline-block; max-width: 100%; font-size: 20px; color: #1a1a1a; line-height: 28px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden; vertical-align: middle;}
 .event_view_wrap .preview_list_wrap .list_type_table table .title a:hover {text-decoration: underline;}
-.event_view_wrap .preview_list_wrap .list_type_table table .title.n_txt a {display: inline-block; max-width: 100%; font-size: 20px; color: #999; line-height: 28px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.event_view_wrap .preview_list_wrap .list_type_table table .title.n_txt a {display: inline-block; max-width: 100%; font-size: 20px; color: #999; line-height: 28px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden; vertical-align: middle;}
 .event_view_wrap .preview_list_wrap .list_type_table table .title.n_txt a:hover {text-decoration: none;}
 .event_view_wrap .preview_list_wrap .list_type_table table .date {font-size: 16px; line-height: 24px; color: #a0a0a0; font-weight: 500; text-align: right;}
 .event_view_wrap .btn_wrap {text-align: center;}
@@ -84,9 +84,9 @@
 .faq_wrap .acc_wrap .acc_tit.active:after {content: ""; position: absolute; top: 57%; right: 24px; width: 9px; height: 9px; border-top: 2px solid #1a1a1a; border-right: 2px solid #1a1a1a; transform: rotate(315deg);}
 .faq_wrap .acc_wrap .acc_tit .tit_wrap {display: flex; align-items: center; width: 100%; overflow: hidden;}
 .faq_wrap .acc_wrap .acc_tit.active .tit_wrap {align-items: flex-start;}
-.faq_wrap .acc_wrap .acc_tit .que_q {display: block; min-width: 28px; font-size: 24px; line-height: 24px; color: #1a1a1a; font-weight: 500;}
+.faq_wrap .acc_wrap .acc_tit .que_q {display: block; min-width: 28px; font-size: 24px; line-height: 28px; color: #1a1a1a; font-weight: 500;}
 .faq_wrap .acc_wrap .acc_tit .badge {min-width: 80px; padding-right: 32px; text-align: left;}
-.faq_wrap .acc_wrap .acc_tit .que_txt {display: inline-block; margin-right: 40px; padding-left: 8px; width: 900px; font-size: 20px; line-height: 28px; color: #1a1a1a; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; letter-spacing: 0; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.faq_wrap .acc_wrap .acc_tit .que_txt {display: inline-block; margin-right: 46px; padding-left: 8px; width: 1060px; font-size: 20px; line-height: 28px; color: #1a1a1a; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; letter-spacing: 0; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
 .faq_wrap .acc_wrap .acc_tit.active .que_txt {white-space: normal; overflow: inherit;}
 .faq_wrap .acc_wrap:first-of-type .acc_tit {border-top: 1px solid #1a1a1a;}
 .faq_wrap .acc_wrap .acc_cont {display: none; padding: 0 24px 40px; background-color: #fafafa;}
@@ -94,7 +94,7 @@
 .faq_wrap .acc_wrap .acc_cont .an_wrap {display: flex;}
 .faq_wrap .acc_wrap:last-of-type .acc_cont {border-top: none; border-bottom: 1px solid #ddd;}
 .faq_wrap .acc_wrap .acc_cont .an_a {padding-right: 8px; min-width: 130px; font-size: 24px; line-height: 24px; color: #1a1a1a; font-weight: 500; text-align: right;}
-.faq_wrap .acc_wrap .acc_cont .an_txt {width: 900px; margin-right: 50px; padding-left: 8px; font-size: 18px; line-height: 28px; color: #333; font-weight: 700;}
+.faq_wrap .acc_wrap .acc_cont .an_txt {width: 1060px; margin-right: 46px; padding-left: 8px; font-size: 18px; line-height: 28px; color: #333; font-weight: 700;}
 
 .faq_wrap .notice_list.n_none table td {padding: 201px 0; text-align: center;}
 .faq_wrap .notice_list.n_none table td p {margin-top: 16px;}
