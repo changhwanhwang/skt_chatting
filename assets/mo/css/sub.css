@@ -91,7 +91,7 @@
 .faq_wrap .acc_wrap .acc_cont .an_wrap {display: flex;}
 .faq_wrap .acc_wrap:last-of-type .acc_cont {border-top: none; border-bottom: 1px solid #ddd;}
 .faq_wrap .acc_wrap .acc_cont .an_a {font-size: 18px; line-height: 28px; color: #1a1a1a; font-weight: 500;}
-.faq_wrap .acc_wrap .acc_cont .an_txt {width: 258px; padding-left: 8px; margin-right: 20px; font-size: 16px; line-height: 24px; color: #1a1a1a; font-weight: 700;}
+.faq_wrap .acc_wrap .acc_cont .an_txt {width: 258px; margin-top: 2px; padding-left: 8px; margin-right: 20px; font-size: 16px; line-height: 24px; color: #1a1a1a; font-weight: 700;}
 
 .faq_wrap .notice_list.n_none table td {padding: 80px 0 100px; text-align: center; border-top: 1px solid #1a1a1a;}
 .faq_wrap .notice_list.n_none table td p {margin-top: 16px;}
