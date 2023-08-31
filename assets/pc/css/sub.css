@@ -22,7 +22,7 @@
 .notice_list.n_none table {width: 100%;}
 .notice_list.n_none table td {width: 100%; padding: 201px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: center;}
 .notice_list.n_none table td p {margin-top: 16px; color: #999; font-family: "Pretendard-Medium", 'Noto Sans KR', sans-serif;}
-.notice_list.n_none table .fixed td {padding: 30px 32px 30px 24px;  text-align: left;}
+.notice_list.n_none table .fixed td {padding: 30px 32px 30px 24px;  text-align: left; border-top: 1px solid #1a1a1a;}
 .notice_list.n_none table tr:last-child td {border-top: 1px solid #1a1a1a;}
  
 /* notice-view */

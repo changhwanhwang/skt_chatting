@@ -25,7 +25,7 @@
 .notice_list.n_none table td {width: 100%; padding: 80px 0 100px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: center;}
 .notice_list.n_none table td img {padding-bottom: 16px;}
 .notice_list.n_none table td p {font-size: 16px; line-height: 24px; font-weight: 500; color: #999;}
-.notice_list.n_none table .fixed td {padding: 25px 40px 25px 20px; text-align: left;}
+.notice_list.n_none table .fixed td {padding: 25px 40px 25px 20px; text-align: left; border-top: 1px solid #1a1a1a;}
 
 
 /* notice-view */
