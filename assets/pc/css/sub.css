@@ -23,7 +23,7 @@
 .notice_list.n_none table td {width: 100%; padding: 201px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: center;}
 .notice_list.n_none table td p {margin-top: 16px; color: #999; font-family: "Pretendard-Medium", 'Noto Sans KR', sans-serif;}
 .notice_list.n_none table .fixed td {padding: 30px 32px 30px 24px;  text-align: left;}
-
+.notice_list.n_none table tr:last-child td {border-top: 1px solid #1a1a1a;}
  
 /* notice-view */
 .noti_view_wrap .detail_tit_wrap {margin-bottom: 32px; border-bottom: 1px solid #ddd;}
@@ -113,9 +113,9 @@
 .faq_wrap .btn_wrap {margin-top: 60px; text-align: center;}
 
 .faq_wrap .txt_box {display: flex; align-items: center; justify-content: space-between; margin-top: 100px; padding: 24px 40px; background-color: #fafafa; border-radius: 20px;}
-.faq_wrap .txt_box p {padding-right: 20px; font-size: 18px; line-height: 28px; color: #333; font-weight: 500;}
+.faq_wrap .txt_box p {padding-right: 20px; font-size: 18px; line-height: 28px; color: #333; font-weight: 700;}
 .faq_wrap .txt_box a {display: block; padding: 10px 24px; font-size: 18px; line-height: 28px; font-weight: 700; color: #3b7cf3; background-color: #fff; border: 1px solid #ddd; border-radius: 81px;}
-.faq_wrap .txt_box a img {padding-right: 8px; vertical-align: middle;}
+.faq_wrap .txt_box a img {padding-right: 8px; vertical-align: middle;margin-bottom:2px;}
 
 
 
