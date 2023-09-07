@@ -10,23 +10,6 @@
   
     const footer = document.querySelector('footer');
     footer.innerHTML = footerHtml;
-
-    // mo header hamburger
-    const hamburgerBtn = document.querySelector('.btn_gnb');
-    const closeBtn = document.querySelector('.btn_close');
-    const moMenu = document.querySelector('.dim_layer');
-    const backBtn = document.querySelector('.btn_back_wrap');
-
-    hamburgerBtn.addEventListener('click', () => {
-      moMenu.style.display = "block";
-      hamburgerBtn.style.display = "none";
-      backBtn.style.display = "none";
-    })
-    closeBtn.addEventListener('click', () => {
-      moMenu.style.display = "none";
-      hamburgerBtn.style.display = "block";
-      backBtn.style.display = "block";
-    })  
   })
   .catch(error => console.log(error));
   // publish 단계에서 확인이 필요한 코드, 개발 적용시 삭제 
@@ -102,6 +85,9 @@
     widthNone[i].setAttribute('colspan', '0');
     widthNone[i].style.display = "none";
     widthTwice[i].setAttribute('colspan', '2');
-  }
+  };
+
+  // progress-bar
+
 
 })();

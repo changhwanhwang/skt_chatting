@@ -2,7 +2,7 @@
 /* common */
 html, body {padding: 0; margin: 0; width: 100%; height: 100%; box-sizing: border-box; font-family: "Pretendard", 'Noto Sans KR', sans-serif;}
 .blind {position: absolute; clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px;}
-.inner {max-width: 100%; margin: 96px auto 120px;}
+.inner {max-width: 100%; margin: 96px auto 80px;}
 .mo-only {display: none;}
 .pc-only {display: block;}
 .search_word {color: #0db19d; font-weight: 700;}
@@ -15,6 +15,8 @@ caption{position: absolute;width: 1px;height: 1px;clip: rect(0 0 0 0);overflow: 
 #accessibility a{overflow:hidden;display:block;position:absolute;top:0;left:0;z-index:1001;width:1px;height:1px;background:#000;color:#fff;text-align:center}
 #accessibility a:focus,.skip a:active{position:relative;width:100%;height:auto;padding:10px}
 
+/* margin & padding */
+.mb0 {margin-bottom: 0 !important;}
 
 /* title */
 .tit_area {margin-bottom: 20px;}
@@ -80,8 +82,10 @@ caption{position: absolute;width: 1px;height: 1px;clip: rect(0 0 0 0);overflow: 
 #header .btn_home {width: 70px; height: 24px; background: url(../img/gnb_logo.svg) no-repeat 100% 100% /100% auto;}
 
 /* pop-layer */
-.dim_layer {position: relative; margin-top: 60px; display: none; -ms-overflow-style: none; scrollbar-width: none;}
-.dim_layer .pop_layer {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff; z-index: 1000;}
+.dim_layer {position: relative; margin-top: 60px; opacity: 0; scrollbar-width: none;transition: all 0.3s;}
+.dim_layer .pop_layer {position: fixed; top: 0; left: -100%; width: 100%; height: 100%; background-color: #fff; z-index: 1000;transition: all 0.3s;}
+.dim_layer.is-open {opacity: 1;transition: all 0.3s;}
+.dim_layer.is-open .pop_layer {left:0;transition: all 0.3s;}
 .dim_layer .pop_cont {padding: 0 20px; margin-top: 60px;}
 .dim_layer .gnb {margin-bottom: 170px; padding-top: 40px;}
 .dim_layer .gnb .gnb_list ul {margin-bottom: 40px; display: flex; flex-direction: column; gap: 24px;}
@@ -105,7 +109,7 @@ caption{position: absolute;width: 1px;height: 1px;clip: rect(0 0 0 0);overflow: 
 #footer .footer_info .footer_left .footer_logo {max-width: 100%; margin-bottom: 20px;}
 #footer .footer_info .footer_left img {max-width: 100%;}
 #footer .footer_info .footer_left p {font-size: 14px; line-height: 22px; font-weight: 500; color: #333;}
-#footer .footer_info  copy {font-size: 10px; line-height: 20px; font-weight: 500; color: #999;}
+#footer .footer_info  copy {padding-top: 4px; font-size: 10px; line-height: 20px; font-weight: 500; color: #999;}
 #footer .footer_info .footer_left span {padding: 0 11px; color: #000; opacity: .3;}
 
 

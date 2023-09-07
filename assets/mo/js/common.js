@@ -6,30 +6,32 @@
   ])
   .then(([gnbHtml, footerHtml]) => {
     const header = document.querySelector('header');
-    header.innerHTML = gnbHtml;
-  
+    header.innerHTML = gnbHtml;    
     const footer = document.querySelector('footer');
     footer.innerHTML = footerHtml;
-
-    // mo header hamburger
-    const hamburgerBtn = document.querySelector('.btn_gnb');
-    const closeBtn = document.querySelector('.btn_close');
-    const moMenu = document.querySelector('.dim_layer');
-    const backBtn = document.querySelector('.btn_back_wrap');
-
-    hamburgerBtn.addEventListener('click', () => {
-      moMenu.style.display = "block";
-      hamburgerBtn.style.display = "none";
-      backBtn.style.display = "none";
-    })
-    closeBtn.addEventListener('click', () => {
-      moMenu.style.display = "none";
-      hamburgerBtn.style.display = "block";
-      backBtn.style.display = "block";
-    })  
+    moMenu();
   })
   .catch(error => console.log(error));
   // publish 단계에서 확인이 필요한 코드, 개발 적용시 삭제 
+  // mo header hamburger
+  const moMenu = () => {
+    const hamburgerBtn = document.querySelector('.btn_gnb');
+    const closeBtn = document.querySelector('.btn_close');
+    const moMenu = document.querySelector('.dim_layer');
+    // const backBtn = document.querySelector('.btn_back_wrap');
+  
+    const openMoMenu = () => {
+      moMenu.classList.toggle('is-open');
+      // backBtn.classList.toggle('is-open');
+      hamburgerBtn.style.display = hamburgerBtn.style.display === "none" ? "block" : "none";
+    };
+  
+    hamburgerBtn.addEventListener('click', openMoMenu);
+    closeBtn.addEventListener('click', openMoMenu);
+
+    moMenu();
+  };
+  
 
   // tab
   function tabContentMenu() {

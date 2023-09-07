@@ -8,24 +8,25 @@
 .notice_wrap .list_type_table table {table-layout: fixed; width: 100%; vertical-align: middle; margin-bottom: 32px; border-top: 1px solid #1a1a1a;}
 .notice_wrap .list_type_table table .fixed {background-color: rgba(59, 124, 243, 0.05);}
 .notice_wrap .list_type_table table .badge {line-height: 24px; text-align: left;}
-.notice_wrap .list_type_table table td {padding: 25px 40px 25px 20px; vertical-align: middle; border-top: 1px solid #ddd;}
+.notice_wrap .list_type_table table td {position: relative; padding: 24px 20px; vertical-align: middle; border-top: 1px solid #ddd;}
+.notice_wrap .list_type_table table td.file:before {content: ""; display: block; position: absolute; top: 46px; right: 20px; width: 20px; height: 20px; background: url(../img/common/ico_paperclip.png) no-repeat center center / auto auto;}
 .notice_wrap .list_type_table table tr:last-child td {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
-.notice_wrap .list_type_table table .title {display: block; padding-left: 0; max-width: 100%; font-size: 16px; color: #1a1a1a; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.notice_wrap .list_type_table table .title {display: block; padding-left: 0; padding-right: 32px; max-width: 288px; font-size: 16px; color: #1a1a1a; line-height: 24px; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
 .notice_wrap .list_type_table table .new .title {font-weight: 700; vertical-align: middle;}
 .notice_wrap .list_type_table table .new {display: flex; align-items: center;}
 .notice_wrap .list_type_table table .new .flag {margin-right: 6px;}
-.notice_wrap .list_type_table table .date {display: inline-block; font-size: 14px; line-height: 24px; color: #a0a0a0; font-weight: 500; text-align: right;}
+.notice_wrap .list_type_table table .date {display: inline-block; font-size: 14px; line-height: 22px; color: #a0a0a0; font-weight: 400; text-align: right;}
 .notice_wrap .btn_wrap {text-align: center;}
 
 /* 이벤트가 없을 경우 */
 .notice_wrap .tit_area+.notice_list_wrap {padding-top: 20px;}
 
 /* 게시글이 없을 경우 */
+.notice_list.n_none {border-top: 1px solid #1a1a1a;}
 .notice_list.n_none table {width: 100%;}
 .notice_list.n_none table td {width: 100%; padding: 80px 0 100px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: center;}
-.notice_list.n_none table td img {padding-bottom: 16px;}
-.notice_list.n_none table td p {font-size: 16px; line-height: 24px; font-weight: 500; color: #999;}
-.notice_list.n_none table .fixed td {padding: 25px 40px 25px 20px; text-align: left; border-top: 1px solid #1a1a1a;}
+.notice_list.n_none table td p {margin-top: 16px; font-size: 16px; line-height: 24px; font-weight: 500; color: #999;}
+.notice_list.n_none table .fixed td {padding: 25px 40px 25px 20px; text-align: left;}
 
 
 /* notice-view */
@@ -57,6 +58,11 @@
 .event_view_wrap .detail_cont_wrap .detail_cont_img img {width: 100%; max-width: 100%;}
 .event_view_wrap .detail_cont_wrap .detail_cont_txt {padding: 0 20px; margin-bottom: 100px; font-size: 16px; line-height: 24px; font-weight: 500; color: #333;}
 
+.event_view_wrap .detail_cont_wrap .img_down_wrap {margin: 33px -20px 0; padding: 24px 20px; background-color: #fafafa; border-top: 1px solid #ddd;}
+.event_view_wrap .detail_cont_wrap .img_down_wrap .img_down {margin-bottom: 24px;}
+.event_view_wrap .detail_cont_wrap .img_down_wrap .img_down a {display: flex; align-items: center; font-size: 16px; line-height: 24px; font-weight: 500; color: #1a1a1a;}
+.event_view_wrap .detail_cont_wrap .img_down_wrap .img_down a img {padding-right: 6px;}
+
 .event_view_wrap .detail_sns {margin-bottom: 40px;}
 .event_view_wrap .detail_sns ul {display: flex; justify-content: center;}
 .event_view_wrap .detail_sns ul li {padding-left: 10px;}
@@ -76,22 +82,29 @@
 .faq_wrap .acc_wrap.active .acc_cont {height: 100%;}
 .faq_wrap .acc_wrap {width: 100%; margin: 0 auto;}
 .faq_wrap .acc_wrap .acc_tit {position: relative; display: flex; align-items: flex-start; flex-direction: column; padding: 24px 20px; border-top: 1px solid #ddd;}
-.faq_wrap .acc_wrap .acc_tit:after {content: ""; position: absolute; top: 42%; right: 24px; width: 8px; height: 8px; border-top: 2px solid #999; border-right: 2px solid #999; transform: rotate(135deg);}
+.faq_wrap .acc_wrap .acc_tit:after {content: ""; position: absolute; top: 40px; right: 20px; width: 8px; height: 8px; border-top: 2px solid #999; border-right: 2px solid #999; transform: rotate(135deg);}
+.faq_wrap .acc_wrap .acc_tit.file:before {content: ""; display: block; position: absolute; top: 45px; right: 60px; width: 24px; height: 24px; background: url(../img/common/ico_paperclip.png) no-repeat center center / auto auto;}
+.faq_wrap .acc_wrap .acc_tit.active.file:before {display: none;}
 .faq_wrap .acc_wrap .acc_tit.active {align-items: flex-start; padding: 24px 20px 22px; background-color: #fafafa;}
-.faq_wrap .acc_wrap .acc_tit.active:after {content: ""; position: absolute; top: 42%; right: 20px; width: 9px; height: 9px; border-top: 2px solid #1a1a1a; border-right: 2px solid #1a1a1a; transform: rotate(315deg);}
+.faq_wrap .acc_wrap .acc_tit.active:after {content: ""; position: absolute; top: 42px; right: 20px; width: 8px; height: 8px; border-top: 2px solid #1a1a1a; border-right: 2px solid #1a1a1a; transform: rotate(315deg);}
 .faq_wrap .acc_wrap .acc_tit .tit_wrap {display: flex; align-items: center; width: 100%; overflow: hidden;}
 .faq_wrap .acc_wrap .acc_tit.active .tit_wrap {align-items: flex-start;}
 .faq_wrap .acc_wrap .acc_tit .que_q {display: block; font-size: 18px; line-height: 28px; color: #1a1a1a; font-weight: 500;}
 .faq_wrap .acc_wrap .acc_tit .badge {padding-right: 32px; text-align: left;}
-.faq_wrap .acc_wrap .acc_tit .que_txt {display: inline-block; margin-right: 20px; padding-left: 8px; width: 258px; font-size: 16px; line-height: 24px; color: #1a1a1a; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; letter-spacing: 0; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
-.faq_wrap .acc_wrap .acc_tit.active .que_txt {padding-top: 2px; white-space: normal; overflow: inherit;}
+.faq_wrap .acc_wrap .acc_tit .que_txt {display: inline-block; margin-right: 20px; padding-right: 60px; padding-left: 8px; width: 258px; font-size: 16px; line-height: 24px; color: #1a1a1a; font-weight: 500; white-space: nowrap; word-break: keep-all; -webkit-line-clamp: 1; letter-spacing: 0; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden;}
+.faq_wrap .acc_wrap .acc_tit.active .que_txt {width: 100%; padding-top: 2px; white-space: normal; overflow: inherit;}
 .faq_wrap .acc_wrap:first-of-type .acc_tit {border-top: 1px solid #1a1a1a;}
 .faq_wrap .acc_wrap .acc_cont {display: none; padding: 0 20px 24px 20px; background-color: #fafafa;}
 .faq_wrap .acc_wrap .acc_cont.active {display: block; border-top: 0;}
 .faq_wrap .acc_wrap .acc_cont .an_wrap {display: flex;}
 .faq_wrap .acc_wrap:last-of-type .acc_cont {border-top: none; border-bottom: 1px solid #ddd;}
 .faq_wrap .acc_wrap .acc_cont .an_a {font-size: 18px; line-height: 28px; color: #1a1a1a; font-weight: 500;}
-.faq_wrap .acc_wrap .acc_cont .an_txt {width: 258px; margin-top: 2px; padding-left: 8px; margin-right: 20px; font-size: 16px; line-height: 24px; color: #1a1a1a; font-weight: 700;}
+.faq_wrap .acc_wrap .acc_cont .an_txt {width: 100%; margin-top: 2px; padding-left: 8px; margin-right: 20px; font-size: 16px; line-height: 24px; color: #1a1a1a; font-weight: 700;}
+
+.faq_wrap .acc_wrap .acc_cont .pdf_btn_wrap {margin-top: 32px;}
+.faq_wrap .acc_wrap .acc_cont .pdf_btn {padding: 16px 24px; margin-bottom: 4px; background-color: #fff; border: 1px solid #ddd; border-radius: 6px;}
+.faq_wrap .acc_wrap .acc_cont .pdf_btn a {display: flex; align-items: center; font-size: 16px; line-height: 24px; font-weight: 500; color: #1a1a1a;}
+.faq_wrap .acc_wrap .acc_cont .pdf_btn a img {padding-right: 6px;}
 
 .faq_wrap .notice_list.n_none table td {padding: 80px 0 100px; text-align: center; border-top: 1px solid #1a1a1a;}
 .faq_wrap .notice_list.n_none table td p {margin-top: 16px;}
